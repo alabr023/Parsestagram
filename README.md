@@ -8,11 +8,11 @@ Time spent: **1** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User sees app icon in home screen and styled launch screen. (1pt)
+- [X] User sees app icon in home screen and styled launch screen. (1pt)
 - [X] User can sign up to create a new account. (1pt)
 - [X] User can log in. (1pt)
-- [ ] User can take a photo, add a caption, and post it to the server. (3pt)
-- [ ] User can view the last 20 posts. (4pts)
+- [X] User can take a photo, add a caption, and post it to the server. (3pt)
+- [X] User can view the last 20 posts. (4pts)
 
 The following **bonus** features are implemented:
 
@@ -23,4 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/SKzaqFK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/880U1vR.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
