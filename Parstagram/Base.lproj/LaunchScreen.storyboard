@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="pY9-cY-mYS">
-                                <rect key="frame" x="16" y="99" width="358" height="330"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="pY9-cY-mYS">
+                                <rect key="frame" x="20" y="257" width="350" height="330"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pY9-cY-mYS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6o8-KK-JF9"/>
+                            <constraint firstItem="pY9-cY-mYS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="210" id="8t4-Zb-Mkj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pY9-cY-mYS" secondAttribute="trailing" constant="20" id="YJk-dy-IwX"/>
+                            <constraint firstItem="pY9-cY-mYS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="m6o-Ne-4VU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
